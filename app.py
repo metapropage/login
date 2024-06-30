@@ -1,6 +1,8 @@
 import streamlit as st
 
-st.write(
-        f'<iframe src="https://streamlit.io"></iframe>',
-        unsafe_allow_html=True,
-    )
+st.markdown(
+    """
+    <a href="https://streamlit.io" target="_blank">Visit Streamlit</a>
+    """,
+    unsafe_allow_html=True
+)
